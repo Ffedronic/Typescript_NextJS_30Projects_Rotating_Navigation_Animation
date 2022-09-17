@@ -4,7 +4,7 @@ function Content() {
   return (
     <div className="content">
       <h1>Amazing Article</h1>
-      <small>Florin Pop</small>
+      <small>Felix Fedronic</small>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
         quia in ratione dolores cupiditate, maxime aliquid impedit dolorem nam
@@ -19,10 +19,10 @@ function Content() {
         molestias fugiat commodi omnis. Asperiores quia tenetur nemo ipsa.
       </p>
 
-      <h2>My Dog</h2>
+      <h2>My Iguana</h2>
       <img
-        src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
-        alt="doggy"
+        src="https://www.bebesaurus.com/modules/prestablog/views/img/grid-for-1-7/up-img/108.jpg"
+        alt="iguana"
       />
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit libero
