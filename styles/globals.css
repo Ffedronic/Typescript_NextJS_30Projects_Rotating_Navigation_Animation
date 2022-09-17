@@ -33,7 +33,7 @@ body {
 }
 
 .circle {
-  background-color: #ff7979;
+  background-color: green;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -53,13 +53,17 @@ body {
   color: #fff;
 }
 
+.circle button:focus {
+  outline: none;
+}
+
 .circle button#open {
   left: 60%;
 }
 
 .circle button#close {
   top: 60%;
-  transform: rotate(90deg);
+  transform: rotate(75deg);
   transform-origin: top left;
 }
 
@@ -114,7 +118,7 @@ nav a{
 }
 
 nav a:hover {
-  color: #FF7979;
+  color: green;
   font-weight: bold;
 }
 
