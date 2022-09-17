@@ -2,8 +2,8 @@ interface ButtonProps {
   id: string;
   icon: string;
 }
-function toggleShowNav() {
-  const container = document.querySelector(".container")!;  
+export function toggleShowNav() {
+  const container = document.querySelector(".container")! as HTMLElement;  
   container.classList.toggle("show-nav")
 }
 
